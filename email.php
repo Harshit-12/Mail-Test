@@ -7,7 +7,7 @@ $Body=$_POST['Body'];
 
 $to = "srivastavaharshit848@gmail.com";
 $sub = "Query / Suggesstion / Reviews";
-$msg="From ".$Name."Email ".$Email."Phone Number ".$Phone."Massage ".$Body;
+$msg="Hello ";
 if (mail($to,$sub,$msg))
 	echo "Your Mail is sent successfully.";
 else
